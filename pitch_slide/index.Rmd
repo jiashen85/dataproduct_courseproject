@@ -54,8 +54,8 @@ Below code is used to render the plot when the reader selected cars dataset.
 ```{r}
 library(ggplot2)
 par(mai=c(4,1,1,1))
-    plot(cars[,2]~cars[,1],xlab="First column variable",ylab="Last column variable")
-    
+plot(cars[,2]~cars[,1],xlab="First column variable",ylab="Last column variable")
+
 ```
 
 
