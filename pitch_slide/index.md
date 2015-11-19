@@ -50,12 +50,12 @@ In order to make the app more complex, below is some considerations:
 ## Some code that the app used
 
 
-Below code is used to render the plot when the reader selected cars dataset and has number of observations of 20. 
+Below code is used to render the plot when the reader selected cars dataset. 
 
 ```r
 library(ggplot2)
 par(mai=c(4,1,1,1))
-    plot(cars[,2]~cars[,1],xlab="First column variable",ylab="Last column variable")
+plot(cars[,2]~cars[,1],xlab="First column variable",ylab="Last column variable")
 ```
 
 ![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
